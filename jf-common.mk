@@ -158,6 +158,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.rild.nitz_short_ons_3="" \
     ro.telephony.ril.v3=newDriverCall
 
+# DEMENTED bootanimation...Credit JaeKar
+PRODUCT_COPY_FILES +=  \
+    vendor/DEMENTED/prebuilt/common/media/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # call common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
