@@ -40,6 +40,17 @@ TARGET_KERNEL_VARIANT_CONFIG := DEMENTED_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
 
+TARGET_GCC_VERSION := 4.6
+
+#Tune for cortex-a15
+TARGET_EXTRA_CFLAGS := -mtune=cortex-a15 -mcpu=cortex-a15
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+TARGET_CPU_SMP := true
+TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := armv7-a-neon
+ARCH_ARM_HAVE_TLS_REGISTER := true
+
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Recovery
