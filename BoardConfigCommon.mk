@@ -40,6 +40,7 @@ TARGET_KERNEL_VARIANT_CONFIG := DEMENTED_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
 
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 TARGET_GCC_VERSION := 4.6
 
 #Tune for cortex-a15
