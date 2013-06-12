@@ -44,7 +44,7 @@ TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 TARGET_GCC_VERSION := 4.6
 
 #Tune for cortex-a15
-TARGET_EXTRA_CFLAGS := -mtune=cortex-a15 -mcpu=cortex-a15
+TARGET_EXTRA_CFLAGS := -mtune=cortex-a15 -mcpu=cortex-a9
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
