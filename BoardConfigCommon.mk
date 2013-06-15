@@ -38,8 +38,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 BOARD_KERNEL_PAGESIZE       := 2048
 TARGET_KERNEL_VARIANT_CONFIG := DEMENTED_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
-TARGET_GCC_VERSION := 4.6
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
 
 #Tune for cortex-a15
 TARGET_EXTRA_CFLAGS := -mtune=cortex-a15 -mcpu=cortex-a9
