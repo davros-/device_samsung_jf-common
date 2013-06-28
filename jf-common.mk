@@ -169,7 +169,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.rild.nitz_short_ons_1="" \
     persist.rild.nitz_short_ons_2="" \
     persist.rild.nitz_short_ons_3="" \
-    ro.telephony.ril.v3=newDriverCall
+    ro.telephony.ril.v3=newDriverCall \
+    dalvik.vm.dexopt-data-only=1
 
 # DEMENTED bootanimation...Credit JaeKar
 PRODUCT_COPY_FILES +=  \
