@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/jf-common/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
     device/samsung/jf-common/keylayout/ue_rf4ce_remote.kl:system/usr/keylayout/ue_rf4ce_remote.kl
 
+# Fix over clocking
+PRODUCT_COPY_FILES += \
+        device/samsung/jf-common/rootdir/etc/03dementedcpuclock:system/etc/init.d/03dementedcpuclock
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
