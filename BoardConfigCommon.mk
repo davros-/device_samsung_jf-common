@@ -39,7 +39,6 @@ BOARD_KERNEL_PAGESIZE       := 2048
 TARGET_KERNEL_VARIANT_CONFIG := droidconcepts_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
-TARGET_GCC_VERSION := 4.7
 
 #Tune for cortex-a15
 TARGET_EXTRA_CFLAGS := -mtune=cortex-a15 -mcpu=cortex-a15

@@ -63,35 +63,3 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := etc/init.qcom.modem_links.sh
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE       := adbd
-LOCAL_MODULE_TAGS  := optional eng
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := sbin/adbd
-LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := post-init.sh
-LOCAL_MODULE_TAGS  := optional eng
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := sbin/post-init.sh
-LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := ueventd
-LOCAL_MODULE_TAGS  := optional eng
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := sbin/ueventd
-LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := watchdogd
-LOCAL_MODULE_TAGS  := optional eng
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := sbin/watchdogd
-LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
