@@ -4,9 +4,7 @@ bin/mpdecision
 
 # Thermal
 bin/thermald
-etc/thermald-8064.conf
-etc/thermald-8930.conf
-etc/thermald-8960.conf
+bin/thermal-engine
 
 # Bluetooth firmware
 vendor/firmware/bcm2079xB4_firmware.ncd
@@ -20,7 +18,8 @@ vendor/firmware/bcm4335_semco.hcd
 lib/libacdbloader.so
 lib/libaudcal.so
 lib/libcsd-client.so
-
+etc/firmware/wcd9310/wcd9310_anc.bin
+etc/firmware/wcd9310/wcd9310_mbhc.bin
 
 # mmparser extended
 lib/libExtendedExtractor.so
